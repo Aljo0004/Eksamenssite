@@ -2,18 +2,108 @@
 <html lang="en">
 
 <head>
+    <meta name="robots" content="noindex">
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Fugaz+One&family=Radley:ital@0;1&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Fugaz+One&family=Radley:ital@0;1&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <p>heheh</p>
+    <header>
+        <div class="logo">
+            <a href="/">
+                <img src="billeder/Logo.webp" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="om_mig.html">Om Mig</a></li>
+                <li><a href="02_web.html">Web</a></li>
+                <li><a href="03_ux.html">UX/UI</a></li>
+                <li><a href="04_animation.html">Animation</a></li>
+                <li><a href="05_indhold.html">Indhold</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <div class="hero_wrapper">
+        <img class="hero_billede" src="billeder/hero.webp" alt="hero">
+        <h1 class="h1_portfolio">Portfolio</h1>
+        <h2 class="h2_navn">Aleksander Toftdahl Jørgensen</h2>
+        <a href="#destination" class="link_til_oversigt">Mine projekter</a>
+        <a href="om_mig.html" class="om_mig_knap">Om mig</a>
+
+    </div>
+    <div class="mitcv">
+        <div id="destination">
+            <h3>T2 - web</h3>
+            <a href="02_web.html">
+                <h1 class="knap_02">T2</h1>
+            </a>
+        </div>
+        <div>
+            <h3> T3 - ux/ui</h3>
+            <a href="03_ux.html">
+                <img class="knap_03" src="billeder/Musica.webp" alt="musica">
+            </a>
+        </div>
+        <div>
+            <h3> T4 - Animation </h3>
+            <a href="04_animation.html"> <img class="knap_04" src="billeder/GreatEscape.webp" alt="greatescape">
+            </a>
+
+        </div>
+        <div>
+            <h3>T5 - Indhold </h3>
+
+            <a href="05_indhold.html">
+                <img class="knap_05" src="billeder/LunaDent.webp" alt="lunadent">
+            </a>
+        </div>
+
+    </div>
+
+
+
+
+    <footer>
+        <div class="footerline">
+            <div class="footertext">
+                <p>Vil du vide mere? Har du nogle spørgsmål, eller vil du bare sige hej? Så udfyld formularen
+                    her! Så
+                    vender jeg tilbage.</p>
+            </div>
+
+            <div class="learnmore">
+                <form>
+                    <div class="form-row">
+                        <input type="text" placeholder="NAME">
+                        <input type="text" placeholder="PHONE">
+                    </div>
+                    <div class="form-row">
+                        <input type="email" placeholder="EMAIL">
+                    </div>
+                    <textarea placeholder="MESSAGE"></textarea>
+                    <button type="submit">SEND</button>
+                </form>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

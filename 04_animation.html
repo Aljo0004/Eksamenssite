@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="robots" content="noindex">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Fugaz+One&family=Radley:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="/">
+                <img src="billeder/Logo.webp" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="om_mig.html">Om Mig</a></li>
+                <li><a href="02_web.html">Web</a></li>
+                <li><a href="03_ux.html">UX/UI</a></li>
+                <li><a href="04_animation.html">Animation</a></li>
+                <li><a href="05_indhold.html">Indhold</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <h1 class="overskrift_04"> T4_Animation - Great Escape</h1>
+
+
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+    <div class="lottie-container">
+        <dotlottie-player src="https://lottie.host/04b34b98-bc90-4b1d-a155-9a4d1e9dc022/f8Ua3ZwFH2.lottie"
+            background="transparent" speed="1" style="width: 95vw; height: auto;" loop autoplay>
+        </dotlottie-player>
+    </div>
+
+    <div class="animation_forord_box">
+        <p class="animation_forord">
+            Dette tema handlede om animation. I denne forbindelse skulle vi lave vores helt eget spil. Selve spillet var
+            meget ligetil.
+            Det gik ud på, at et dårligt element og et godt element faldt ned fra toppen af skærmen.
+            Man havde til opgave at klikke på de gode elementer for at samle point, og undgå at klikke på de dårlige
+            elementer, for ellers mister du liv.
+            Dermed vil jeg byde dig velkommen til mit spil, Great Escape.
+            Spillet hvor hovedpersonen slipper væk fra et land hvor han lider af hungersnød, men alligevel er tykkere
+            end landets diktator,
+            som er afhængig af schweizisk ost.
+            Spillet finder sted i Nordkorea, hvor du, som hovedperson, skal slippe
+            over grænsen til Sydkorea for at få et bedre liv.
+            Men pas på, der er grænsepoliti. Hvis de ser dig, kommer du helt sikkert i fængsel. Undervejs skal du gribe
+            propaganda, som Sydkoreanere kaster over grænsen, for at nedgøre Kim Jong Un, som er diktator i Nordkorea.
+            Der falder også CD-er ned med Sydkoreansk musik, som du tager med dig for at blive mere kulturel i dit nye
+            land.
+            Undgår du grænsepolitiet i 30 sek, og samler du tilstrækkelig propaganda og CD-er, så når du til Sydkorea,
+            og vinder dermed spillet.
+        </p>
+    </div>
+    <h2 class="h2sketch_04">Design</h2>
+    <div class="sketch_04">
+        <div>
+            <img class="img_sketch_04" src="billeder/04_animation_billeder/04_greatescapesketch.webp" alt="sketchkim">
+            <p class="p_sketch"> Mine spil-elementer lavede jeg ved hjælp af skitseteknikker, som jeg har arbejdet med i
+                undervisningen.
+                Inden jeg lavede disse elementer, havde jeg været inde og kigge på forskellige stilarter, som jeg kunne
+                bruge.
+                Dette gjorde det nemmere at forsøge at implementere en rød tråd i mit design.
+
+            </p>
+        </div>
+        <div>
+            <img class="img_sketch2_04" src="billeder/04_animation_billeder/04_greatsucces.webp" alt="succes">
+            <p class="p_sketch2">Jeg brugte samme skitseteknikker til mine sider, som jeg brugte da jeg lavede
+                spil-elementer.
+                Vi lavede både startskærm, spilskærm og game-over. De skulle selvfølgelig være relevante til temaet, og
+                i mit tilfælde finder de alle sted i Korea.
+            </p>
+        </div>
+    </div>
+
+    <h2 class="h2proces_04">Proces</h2>
+    <div class="proces_04">
+        <div>
+            <img class="img_proces_04" src="billeder/04_animation_billeder/04_aktivitetsdiagram.webp"
+                alt="aktivitetsdiagram">
+            <p class="p_proces">Nu kunne vi begynde at danne os overvejelser om hvordan selve spillet skulle fungere.
+                Dette gjorde vi ved hjælp af et aktivitetsdiagram, som hjalp med at visualisere spillet, og alle dets
+                veje.
+                Heriblandt lærte vi også de forskellige symboler at kende, som bestemmer hvad der sker hvor.
+            </p>
+        </div>
+        <div>
+            <img class="img_proces2_04" src="billeder/04_animation_billeder/04_statemachinediagram.webp"
+                alt="statemachinediagram">
+            <p class="p_proces2">Herefter kunne vi lave statemachinediagram.
+                Dette viser hele mekanismen bag hvad der sker, når brugeren udfører en given aktion på siden.
+                Det har derfor også de mp3 lyde ve også selv har lavet med. Dermed har man nu overblik over hele
+                processen, og alle ens elementer.</p>
+        </div>
+    </div>
+
+    <h2 class="h2product_04">Det endelige produkt</h2>
+    <div class="product_04">
+        <div>
+            <img class="img_product_04" src="billeder/04_animation_billeder/04_greatescapestart.webp" alt="startgame">
+            <p class="p_landingpage">Efter alt dette kunne vi nu gå i gang med at kode.
+                Det var ikke kun spillet vi skulle kode. Vi skulle selvfølgelig også sætte alt korrekt op layoutmæssigt.
+                Vi skulle nemlig også dokumentere vores proces på siden, så vi skulle også bruge viden fra tidligere
+                temaer til at fuldføre denne opgave.
+            </p>
+        </div>
+        <div>
+            <img class="img_product2_04" src="billeder/04_animation_billeder/04_greatsecapegame.png" alt="game">
+            <p class="p_product2">For at få selve spillet til at fungere brugte vi JavaScript. Dette var helt nyt, og en
+                stejl læringskurve.
+                Ud over HTML og css har vi nu også brugt JavaScript på vores side. Det er på denne måde at vores
+                spil-elementer kan falde ned fra toppen
+                , og at en ny skærm vises når du henholdsvis har vundet eller tabt.
+            </p>
+        </div>
+    </div>
+    <div class="her_wrap">
+        <p class="her_p"> Udforsk selv projektet
+            <a class="her_href" href="https://hijo.dk/kea/04_animation/website/spil.html">her</a>
+        </p>
+    </div>
+
+    <div class="mitcv">
+        <div>
+            <h3>T2 - web</h3>
+            <a href="02_web.html">
+                <h1 class="knap_02">T2</h1>
+            </a>
+        </div>
+        <div>
+            <h3> T3 - ux/ui</h3>
+            <a href="03_ux.html">
+                <img class="knap_03" src="billeder/Musica.webp" alt="musica">
+            </a>
+        </div>
+        <div>
+            <h3> T4 - Animation </h3>
+            <a href="04_animation.html"> <img class="knap_04" src="billeder/GreatEscape.webp" alt="greatescape">
+            </a>
+
+        </div>
+        <div>
+            <h3>T5 - Indhold </h3>
+
+            <a href="05_indhold.html">
+                <img class="knap_05" src="billeder/LunaDent.webp" alt="lunadent">
+            </a>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="footerline">
+            <div class="footertext">
+                <p>Vil du vide mere? Har du nogle spørgsmål, eller vil du bare sige hej? Så udfyld formularen
+                    her! Så
+                    vender jeg tilbage.</p>
+            </div>
+
+            <div class="learnmore">
+                <form>
+                    <div class="form-row">
+                        <input type="text" placeholder="NAME">
+                        <input type="text" placeholder="PHONE">
+                    </div>
+                    <div class="form-row">
+                        <input type="email" placeholder="EMAIL">
+                    </div>
+                    <textarea placeholder="MESSAGE"></textarea>
+                    <button type="submit">SEND</button>
+                </form>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
